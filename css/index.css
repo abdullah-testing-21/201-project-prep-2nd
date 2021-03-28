@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    /* background-color: wheat; */
+}
+form {
+    display: block;
+    width: 40%;
+    margin-top: 100px;
+    margin-right: 5%;
+    background-color: rgb(199, 199, 243);
+    color: black  ;
+    float: left;
+    height: 300px;
+   
+
+}
+fieldset{
+    border: 0px;
+}
+
+input {
+    margin-top: 50px;
+}
+
+.right-section{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 5%;
+    background-color: rgb(199, 199, 243);
+    color: black  ;
+    height: 300px;
+    float: left;
+   /* margin-right: 20%; */
+
+}
+
+.Delete {
+    color: red;
+    cursor: pointer;
+}
